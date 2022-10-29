@@ -1,0 +1,213 @@
+
+
+/*- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+*/
+
+*{box-sizing:border-box;
+padding:0;
+margin:0;}
+
+body{min-height:100vh;
+background-color: hsl(217, 54%, 11%);
+padding-left:30px ;
+padding-top:50px ;
+padding-bottom: 50px;
+padding-right:30px ;
+
+}
+
+/*main{width:330px;
+height:580px;
+background-color: hsl(218, 9%, 18%);
+padding-left:15px ;
+    padding-top:20px ;
+    padding-bottom:20px;
+    padding-right:15px ;
+    
+}*/
+
+.card{background-color:hsl(216, 50%, 16%) ;
+    padding-left:30px ;
+    padding-top:30px ;
+    padding-bottom:30px;
+    padding-right:30px ;
+ width:300px;
+        height:540px;
+    border-radius: 15px;}
+
+
+.pics{background-image:url(./images/image-equilibrium.jpg);
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+width:240px;
+height:250px;
+border-radius: 5px;
+border-style: none;}
+
+.pics:active{background-image:url(./images/image-equilibrium.jpg);
+    
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:240px;
+    height:250px;
+    border-radius: 5px;
+    border-style: none;
+    filter: grayscale(100%)
+}
+
+
+section article h1{color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+margin-top: 20px;
+margin-bottom: 20px;}
+
+section article h1:active{color: hsl(178, 100%, 50%);
+cursor: pointer;}
+
+section article h1:hover{
+    cursor: pointer;}
+    
+
+section article p{color:hsl(215, 51%, 70%);
+margin-bottom: 15px;
+line-height: 25px;}
+
+hr{opacity:0.2 ;}
+.col1{color: hsl(178, 100%, 50%);
+display: inline-block;
+margin-bottom: 18px;}
+
+.col2{color:hsl(215, 51%, 70%);
+    display: inline-block;
+    margin-bottom: 18px;
+    margin-left: 60px;
+}
+
+
+    .col1 img{width: 10px;
+    height:15px ;}
+
+    .col2 img{width: 15px;
+        height:15px ;}
+
+
+    footer{margin-top: 10px;}
+  footer img{display:inline-block;
+        width: 30px;
+    height:28px;
+border-style: solid;
+border-radius: 50px;
+border-width: 1px;
+border-color: #fff;}
+
+.foot-text1{color:hsl(215, 51%, 70%) ;}
+.foot-text2{color:#fff ;}
+
+
+.foot-text2:active{color: hsl(178, 100%, 50%);
+    cursor: pointer;}
+
+    foot-text2:hover{
+        cursor: pointer;}
+    
+
+@media(min-width:500px){
+
+    body{min-height:100vh;
+    background-color: hsl(217, 54%, 11%);
+    
+    }
+    
+   
+    .card{margin:50px auto;
+        background-color:hsl(216, 50%, 16%) ;
+        padding-left:30px ;
+        padding-top:30px ;
+        padding-bottom:30px;
+        padding-right:30px ;
+     width:300px;
+            height:540px;
+        border-radius: 15px;}
+
+    .pics{background-image:url(./images/image-equilibrium.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:240px;
+    height:250px;
+    border-radius: 5px;
+    border-style: none;}
+
+    
+    .pics:hover{cursor: pointer;}
+    .pics:active{background-color: hsl(178, 100%, 50%);
+    opacity: 3;}
+
+
+
+
+    section article h1{color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+    section article h1:active{color: hsl(178, 100%, 50%);
+        cursor: pointer;}
+        section article h1:hover{
+            cursor: pointer;}
+    
+    section article p{color:hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+    line-height: 25px;}
+    
+    hr{opacity:0.2 ;}
+    .col1{color: hsl(178, 100%, 50%);
+    display: inline-block;
+    margin-bottom: 18px;}
+    
+    .col2{color:hsl(215, 51%, 70%);
+        display: inline-block;
+        margin-bottom: 18px;
+        margin-left: 60px;
+    }
+    
+    
+        .col1 img{width: 10px;
+        height:15px ;}
+    
+        .col2 img{width: 15px;
+            height:15px ;}
+    
+    
+        footer{margin-top: 10px;}
+      footer img{display:inline-block;
+            width: 30px;
+        height:28px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #fff;}
+    
+    .foot-text1{color:hsl(215, 51%, 70%) ;}
+    .foot-text2{color:#fff ;}
+    }
+
+
+    .foot-text2:active{color: hsl(178, 100%, 50%);
+    cursor: pointer;}
+
+    .foot-text2:hover{
+        cursor: pointer;}
