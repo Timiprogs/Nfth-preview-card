@@ -1,18 +1,52 @@
 # Nfth-preview-card
 # Frontend Mentor - NFT preview card component
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+### The is a simple componenet challenge using HTML and CSS 
 
-Your challenge is to build out this preview card component and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+### Screenshot
+
+##### Desktop view Screenshot
+
+![desktop view screenshot](desktop-view-screenshot.png)
+
+
+
+##### Mobile view Screenshot
+
+![mobile view screenshot](mobile-view-screenshot.png)
+
+
+
+### Links
+
+
+- Live Site URL: (https://timiprogs.github.io/Nfth-preview-card/)
+
+
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS 
+
+
+
+
+
+
+
+- Frontend Mentor - [@Timiprogs](https://www.frontendmentor.io/profile/Timiprogs)
